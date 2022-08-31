@@ -1,8 +1,8 @@
 {
-  "name": "ant-design-pro",
+  "name": "rulex",
   "version": "6.0.0-beta.1",
   "private": true,
-  "description": "An out-of-box UI solution for enterprise applications",
+  "description": "轻量级边缘网关",
   "scripts": {
     "analyze": "cross-env ANALYZE=1 max build",
     "build": "max build",
