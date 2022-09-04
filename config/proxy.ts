@@ -11,7 +11,7 @@ export default {
     // localhost:8000/api/** -> https://127.0.0.1:2580/api/**
     '/api/': {
       // 要代理的地址
-      target: 'https://127.0.0.1:2580/api/v1',
+      target: 'http://127.0.0.1:2580',
       // 配置了这个可以从 http 代理到 https
       // 依赖 origin 的功能可能需要这个，比如 cookie
       changeOrigin: true,
@@ -19,14 +19,14 @@ export default {
   },
   test: {
     '/api/': {
-      target: 'https://127.0.0.1:2580/api/v1',
+      target: 'http://127.0.0.1:2580',
       changeOrigin: true,
       pathRewrite: { '^': '' },
     },
   },
   pre: {
     '/api/': {
-      target: 'https://127.0.0.1:2580',
+      target: 'http://127.0.0.1:2580',
       changeOrigin: true,
       pathRewrite: { '^': '' },
     },

@@ -1,4 +1,3 @@
-import { GithubOutlined } from '@ant-design/icons';
 import { DefaultFooter } from '@ant-design/pro-components';
 import { useIntl } from '@umijs/max';
 
@@ -21,21 +20,9 @@ const Footer: React.FC = () => {
         {
           key: 'RULEX',
           title: 'RULEX',
-          href: 'https://pro.ant.design',
+          href: 'https://127.0.0.1',
           blankTarget: true,
-        },
-        {
-          key: 'github',
-          title: <GithubOutlined />,
-          href: 'https://github.com/ant-design/ant-design-pro',
-          blankTarget: true,
-        },
-        {
-          key: 'RULEX',
-          title: 'RULEX',
-          href: 'https://ant.design',
-          blankTarget: true,
-        },
+        }
       ]}
     />
   );

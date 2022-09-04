@@ -10,7 +10,7 @@ export async function postLogin(
   },
   options?: { [key: string]: any },
 ) {
-  return request<{ code: number; msg: string; data: string }>('/api/v1/login', {
+  return request<{ code: number; msg: string; data: any }>('/api/v1/login', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
