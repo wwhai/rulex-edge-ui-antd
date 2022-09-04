@@ -17,9 +17,9 @@ export default () => {
   };
 
   return (
-    <div style={{ backgroundColor: 'white', height: 'calc(100vh - 48px)', margin: 0 }}>
+    <div style={{ width: '200', backgroundColor: 'white', height: 'calc(100vh)' }}>
       <LoginFormPage
-        backgroundImageUrl="https://gw.alipayobjects.com/zos/rmsportal/FfdJeJRQWjEeGTpqgBKj.png"
+        backgroundImageUrl="/bg.jpg"
         logo="/logo.png"
         title="RULEX Framework"
         subTitle="轻量级边缘网关开发框架"
